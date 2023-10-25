@@ -17,7 +17,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(45deg, #1B13A6 49.59%, #443CDF 88.57%), #FFF;
 }
 
@@ -26,10 +25,12 @@ p {
 }
 
 .ellipse-top {
+  box-sizing: border-box;
   width: 392.283px;
   height: 265.164px;
   flex-shrink: 0; 
   border-radius: 392.283px;
+  color: #6158FF80;
   background: rgba(97, 88, 255, 0.80);
   filter: blur(100.55364990234375px);
 }
@@ -39,6 +40,7 @@ p {
   height: 495.072px;
   flex-shrink: 0;
   border-radius: 495.072px;
+  color: #6158FF;
   background: #6158FF;
   filter: blur(144.9958953857422px);
 }
@@ -48,6 +50,7 @@ p {
   height: 291.481px;
   flex-shrink: 0;
   border-radius: 291.481px;
+  color: #6158FF60;
   background: rgba(97, 88, 255, 0.60);
   filter: blur(87.89134216308594px);
 }
