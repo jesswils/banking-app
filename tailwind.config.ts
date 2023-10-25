@@ -17,8 +17,8 @@ const config: Config = {
         'primary': '#4E46E8',
         'neutral-dark': '#1D1C31',
         'neutral-light': '#FFFFFF',
-        'neutral-purple': '#B6B3EB'
-        
+        'neutral-purple': '#B6B3EB',
+        'transparent': '#FFFFFF10'
       },
       fontFamily: {
         display: ['var(--font-jakarta)'],
