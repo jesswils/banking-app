@@ -18,10 +18,36 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(45deg, #1B13A6 49.59%, #443CDF 88.57%), #FFF;
+}
+
+p {
+  color: rgb(var(--foreground-rgb));
+}
+
+.ellipse-top {
+  width: 392.283px;
+  height: 265.164px;
+  flex-shrink: 0; 
+  border-radius: 392.283px;
+  background: rgba(97, 88, 255, 0.80);
+  filter: blur(100.55364990234375px);
+}
+
+.ellipse-left {
+  width: 397.249px;
+  height: 495.072px;
+  flex-shrink: 0;
+  border-radius: 495.072px;
+  background: #6158FF;
+  filter: blur(144.9958953857422px);
+}
+
+.ellipse-right {
+  width: 291.481px;
+  height: 291.481px;
+  flex-shrink: 0;
+  border-radius: 291.481px;
+  background: rgba(97, 88, 255, 0.60);
+  filter: blur(87.89134216308594px);
 }

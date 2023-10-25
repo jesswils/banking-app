@@ -1,8 +1,22 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Poppins, Plus_Jakarta_Sans} from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  weight: ['400', '600'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-poppins',
+  subsets: ['latin'],
+})
+
+const jakarta = Plus_Jakarta_Sans({
+  weight: ['400', '500', '700'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-jakarta',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Legacy Line',
@@ -16,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={jakarta.className}>{children}</body>
     </html>
   )
 }
