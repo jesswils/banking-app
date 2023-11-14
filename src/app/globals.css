@@ -17,7 +17,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, #1B13A6 49.59%, #443CDF 88.57%), #FFF;
+  background: linear-gradient(45deg, #1B13A6 49.59%, #443CDF 88.57%), #FFF repeat-y;
 }
 
 p {
@@ -26,9 +26,8 @@ p {
 
 .ellipse-top {
   box-sizing: border-box;
-  width: 392.283px;
-  height: 265.164px;
-  flex-shrink: 0; 
+  width: 49.375rem;
+  height: 33.375rem;
   border-radius: 392.283px;
   color: #6158FF80;
   background: rgba(97, 88, 255, 0.80);
@@ -40,7 +39,6 @@ p {
   height: 495.072px;
   flex-shrink: 0;
   border-radius: 495.072px;
-  color: #6158FF;
   background: #6158FF;
   filter: blur(144.9958953857422px);
 }
