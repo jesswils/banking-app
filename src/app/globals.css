@@ -18,6 +18,8 @@
 
 body {
   background: linear-gradient(45deg, #1B13A6 49.59%, #443CDF 88.57%), #FFF repeat-y;
+  margin-left: 16rem;
+  margin-right: 16rem;
 }
 
 p {
@@ -31,7 +33,7 @@ p {
   border-radius: 392.283px;
   color: #6158FF80;
   background: rgba(97, 88, 255, 0.80);
-  filter: blur(100.55364990234375px);
+  filter: blur(13rem);
 }
 
 .ellipse-left {
