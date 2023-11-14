@@ -17,7 +17,7 @@ const Nav = () => {
 						<li>
 							<a
 								href='#'
-								className='block py-2 pl-3 pr-4 text-transparent rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500'
+								className='py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0'
 								aria-current='page'
 							>
 								Home
@@ -26,7 +26,7 @@ const Nav = () => {
 						<li>
 							<a
 								href='#'
-								className='block py-2 pl-3 pr-4 text-transparentrounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+								className='py-2 pl-3 pr-4 text-transparent rounded text-white bg-transparent md:p-0'
 							>
 								Services
 							</a>
@@ -34,7 +34,7 @@ const Nav = () => {
 						<li>
 							<a
 								href='#'
-								className='block py-2 pl-3 pr-4 text-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+								className='py-3 pl-3 pr-4 text-transparent rounded text-white bg-transparent md:p-0'
 							>
 								Contact
 							</a>
@@ -42,13 +42,14 @@ const Nav = () => {
 						<li>
 							<a
 								href='#'
-								className='block py-2 pl-3 pr-4 text-transparentrounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
+								className='py-2 pl-3 pr-4 text-transparent rounded text-white bg-transparent md:p-0'
 							>
 								About us
 							</a>
 						</li>
 						<li>
-							<button type='button' className='inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-transparent'>
+							<button type='button' className='inline-block text-sm font-medium text-center text-white bg-transparent
+              px-4 py-2.5 leading-none border rounded border-transparent'>
 								Sign up
 							</button>
 						</li>
