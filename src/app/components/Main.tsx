@@ -26,18 +26,19 @@ const Main = () => {
     </li>
     </ul>
     {/* information */}
-<ul>
-    <li>
-        &#60; 0.1%  // less than symbol
-        <p>Transaction Fees</p>
+<ul className="flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem]">
+    <li className="text-white text-[2rem] font-semibold">
+    {/* less than symbol */}
+        &#60;0.1% 
+        <p className="text-transparent-purple text-base font-normal">Transaction Fees</p>
     </li>
-    <li>
+    <li className="text-white text-[2rem] font-semibold">
        +14%
-        <p>Savings Percentage</p>
+        <p className="text-transparent-purple text-base font-normal">Savings Percentage</p>
     </li>
-    <li>
+    <li className="text-white text-[2rem] font-semibold">
         +2.9M
-        <p>Business Owner</p>
+        <p className="text-transparent-purple text-base font-normal">Business Owner</p>
     </li>
 </ul>
     </>
