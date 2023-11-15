@@ -1,7 +1,9 @@
+import Banks from "./Banks"
 
 const Main = () => {
   return (
     <>
+    <section className="ml-[16rem] mr-[16rem]">
     <h1 className="text-[3.5rem] font-bold text-white tracking-wider leading-extra-loose w-[36.625rem] h-[13.125rem] mt-[5.25rem]">Discover Financial Freedom with LegacyLine</h1>
     <p className="w-[36.625rem] text-transparent-purple mt-6">Welcome to our bank's website, where we provide secure finanical solutions
         tailored to meet your unique needs.
@@ -26,7 +28,7 @@ const Main = () => {
     </li>
     </ul>
     {/* information */}
-<ul className="flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem]">
+<ul className="flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem] mb-[9rem]">
     <li className="text-white text-[2rem] font-semibold">
     {/* less than symbol */}
         &#60;0.1% 
@@ -41,6 +43,10 @@ const Main = () => {
         <p className="text-transparent-purple text-base font-normal">Business Owner</p>
     </li>
 </ul>
+    </section>
+    <section>
+        <Banks />
+    </section>
     </>
   )
 }

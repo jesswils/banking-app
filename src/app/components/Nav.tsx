@@ -1,7 +1,7 @@
 const Nav = () => {
 	return (
 		<>
-			<nav className='flex items-center justify-between flex-wrap p-6'>
+			<nav className='flex items-center justify-between flex-wrap p-6 ml-[16rem] mr-[16rem]'>
 				{
 					/* <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-base text-transparent" aria-controls="navbar-default" aria-expanded="false">
         <span className="sr-only">Open main menu</span>

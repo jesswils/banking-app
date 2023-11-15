@@ -17,8 +17,7 @@
 }
 
 body {
-  background: var(--ffffff-2-paints, linear-gradient(65deg, #362FCC 31.84%, #5D55FF 68.16%), #FFF);  margin-left: 16rem;
-  margin-right: 16rem;
+  background: var(--ffffff-2-paints, linear-gradient(65deg, #362FCC 31.84%, #5D55FF 68.16%), #FFF);
 }
 
 p {
