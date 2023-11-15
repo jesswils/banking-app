@@ -20,12 +20,19 @@ const config: Config = {
         'neutral-purple': '#B6B3EB',
         'transparent': '#FFFFFF10',
         'white' : '#FFF',
-        'transparent-purple' : '#B6B3EB'
+        'transparent-purple' : '#B6B3EB',
+        'deep-purple' : '#110C64'
       },
       fontFamily: {
         display: ['var(--font-jakarta)'],
         sans: ['var(--font-poppins)'],
       },
+      letterSpacing: {
+        wider: '-0.07rem',
+      },
+      lineHeight: {
+        'extra-loose': ' 4.375rem',
+      }
     },
   },
   plugins: [],
