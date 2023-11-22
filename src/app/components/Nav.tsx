@@ -49,9 +49,10 @@ const Nav = () => {
 						</li>
 						<li>
 							<a
-               href='#'
-               className='text-base text-white font-medium bg-transparent
-              px-4 py-2.5 leading-none rounded-lg'>
+								href='#'
+								className='text-base text-white font-medium bg-transparent
+              px-4 py-2.5 leading-none rounded-lg'
+							>
 								Sign up
 							</a>
 						</li>
