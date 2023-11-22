@@ -30,7 +30,7 @@ const Main = () => {
 					</li>
 				</ul>
 				{/* information */}
-				<ul className='flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem] mb-[9rem]'>
+				<ul className='flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem] mb-[9rem]' aria-description='Bank information'>
 					<li className='text-white text-[2rem] font-semibold'>
 						{/* less than symbol */}
 						&#60;0.1%
