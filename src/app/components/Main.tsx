@@ -1,9 +1,11 @@
 import Banks from './Banks';
+import Phone from './Homepage-Images';
 
 const Main = () => {
 	return (
 		<>
 			<section className='ml-[16rem] mr-[16rem]'>
+			<Phone />
 				<h1 className='text-[3.5rem] font-bold text-white tracking-wider leading-extra-loose w-[36.625rem] h-[13.125rem] mt-[5.25rem]'>
 					Discover Financial Freedom with LegacyLine
 				</h1>
@@ -11,6 +13,7 @@ const Main = () => {
 					Welcome to our bank's website, where we provide secure finanical solutions tailored to meet your unique needs.
 				</p>
 				{/* buttons */}
+				
 				<ul className='flex pt-[1.5rem] pr-[2rem] align-center gap-[0.625rem]'>
 					<li>
 						<a
@@ -29,6 +32,7 @@ const Main = () => {
 						</a>
 					</li>
 				</ul>
+				
 				{/* information */}
 				<ul className='flex pt-[1.5rem] pr-[2rem] align-center gap-[3rem] mb-[9rem]' aria-description='Bank information'>
 					<li className='text-white text-[2rem] font-semibold'>
