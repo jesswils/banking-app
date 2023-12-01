@@ -7,6 +7,7 @@ const Images = () => {
           <img src={'/assets/body_internal.png'} alt='mobile Images' className='absolute w-[14.8935rem] h=[32.2115rem]' />
     <img src={'/assets/phone.png'} alt='mobile view of the banking app' className='w-[14.8935rem] h=[32.2115rem]' />
     </section>
+    <img src='/assets/gaussian_layer.png' alt='credit card' className='absolute right-96'/>
     </>
   )
 }
