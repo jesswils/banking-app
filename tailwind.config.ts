@@ -21,7 +21,8 @@ const config: Config = {
         'transparent': '#FFFFFF10',
         'white' : '#FFF',
         'transparent-purple' : '#B6B3EB',
-        'deep-purple' : '#110C64'
+        'deep-purple' : '#110C64',
+        'credit-card' : '#0E0A5F99'
       },
       fontFamily: {
         display: ['var(--font-jakarta)'],
