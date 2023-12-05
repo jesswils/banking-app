@@ -14,6 +14,10 @@ const Images = () => {
     {/* symbols floating around */}
       <img src='/svgs/euro-up.svg' alt='euro symbol' className='w-8 h-8 absolute right-60 top-60' />
       <img src='/svgs/pound.svg' alt='pound symbol' className='w-8 h-8 absolute right-16 top-[17rem]' />
+      <img src='/svgs/euro-down.svg' alt='euro symbol facing down' className='w-8 h-8 absolute right-52 bottom-[8rem] rotate-90' />
+      <img src='/svgs/graph.svg' alt='graph icon' className='w-8 h-8 absolute right-44 bottom-[1rem]' />
+      <img src='/svgs/dollar.svg' alt='dollar sign' className='w-8 h-8 absolute right-2 bottom-[6rem]' />
+
     {/* credit card  */}
     <div id='credit-card' className=' bg-credit-card/60 border rounded-[0.9375rem] border-transparent w-[21.375rem] h-[11.875rem] absolute right-9 top-80 backdrop-blur-sm'/>
     <img src='/svgs/logo.svg' alt='credit card logo' className='absolute right-[18.7rem] top-[21rem]' />
