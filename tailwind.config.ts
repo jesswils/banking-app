@@ -22,7 +22,8 @@ const config: Config = {
         'white' : '#FFF',
         'transparent-purple' : '#B6B3EB',
         'deep-purple' : '#110C64',
-        'credit-card' : '#0E0A5F99'
+        'credit-card' : '#0E0A5F99',
+        'ellipses' : '#6158ffcc'
       },
       fontFamily: {
         display: ['var(--font-jakarta)'],
