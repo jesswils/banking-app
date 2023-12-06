@@ -4,7 +4,7 @@ import Phone from './Homepage-Images';
 const Main = () => {
 	return (
 		<>
-			<section className='ml-[16rem] mr-[16rem]'>
+			<section className='ml-64 mr-64'>
 				<Phone />
 				<h1 className='text-[3.5rem] font-bold text-white tracking-wider leading-extra-loose w-[36.625rem] h-[13.125rem] mt-16'>
 					Discover Financial Freedom with LegacyLine
@@ -14,11 +14,11 @@ const Main = () => {
 				</p>
 				{/* buttons */}
 
-				<ul className='flex pt-[1.5rem] pr-[2rem] align-center gap-[0.625rem]'>
+				<ul className='flex pt-6 pr-8 align-center gap-[0.625rem]'>
 					<li>
 						<a
 							href='#'
-							className='inline-flex justify-center align-center bg-white px-[1.5rem] py-4 gap-x-2.5 w-auto h-auto rounded-lg text-deep-purple font-medium'
+							className='inline-flex justify-center align-center bg-white px-6 py-4 gap-x-2.5 w-auto h-auto rounded-lg text-deep-purple font-medium'
 						>
 							Open Bank Account
 						</a>
@@ -26,7 +26,7 @@ const Main = () => {
 					<li>
 						<a
 							href='#'
-							className='inline-flex justify-center align-center border border-white/[.20] text-white px-[1.5rem] py-4 gap-x-2.5 w-auto h-auto rounded-lg text-deep-purple font-medium'
+							className='inline-flex justify-center align-center border border-white/[.20] text-white px-6 py-4 gap-x-2.5 w-auto h-auto rounded-lg text-deep-purple font-medium'
 						>
 							Learn More
 						</a>
@@ -34,7 +34,7 @@ const Main = () => {
 				</ul>
 
 				{/* information */}
-				<ul className='flex mt-5 pt-[1.5rem] pr-[2rem] align-center gap-[3rem] mb-[9rem]' aria-description='Bank information'>
+				<ul className='flex mt-5 pt-6 pr-8 align-center gap-32 mb-[9rem]' aria-description='Bank information'>
 					<li className='text-white text-[2rem] font-semibold'>
 						{/* less than symbol */}
 						&#60;0.1%
