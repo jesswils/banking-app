@@ -4,7 +4,7 @@ import Phone from './Homepage-Images';
 const Main = () => {
 	return (
 		<>
-			<section className='ml-64 mr-64'>
+			<section className='ml-56 mr-56'>
 				<Phone />
 				<h1 className='text-[3.5rem] font-bold text-white tracking-wider leading-extra-loose w-[36.625rem] h-[13.125rem] mt-16'>
 					Discover Financial Freedom with LegacyLine

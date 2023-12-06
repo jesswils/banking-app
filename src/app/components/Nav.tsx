@@ -1,7 +1,7 @@
 const Nav = () => {
 	return (
 		<>
-			<nav className='flex items-center justify-between flex-wrap p-6 ml-64 mr-64'>
+			<nav className='flex items-center justify-between flex-wrap p-6 ml-52 mr-52'>
 				<span className='text-2xl font-sans font-semibold whitespace-nowrap text-white'>LegacyLine.</span>
 
 				<div className='hidden w-full md:block md:w-auto pt-5' id='navbar-default'>
