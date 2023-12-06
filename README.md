@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) landing page bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), based off a [Figma Banking UI](https://www.figma.com/community/file/1282341166777547361)
+This is a [Next.js](https://nextjs.org/) and [Tailwind](https://tailwindcss.com/) landing page bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), based off a [Figma Banking UI](https://www.figma.com/community/file/1282341166777547361).
+
+<img src="src\app\assets\banking-page.png" alt="screenshot of the banking website" />
 
 ## Getting Started
 
